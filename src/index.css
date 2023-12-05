@@ -1,0 +1,49 @@
+.header {
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  margin: 30px auto;
+  color: rgb(32, 91, 201);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.header .nav {
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header .nav li:first-child {
+  margin-left: 20px;
+}
+
+.header .nav li {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.header .nav .active {
+  color: rgb(36, 175, 217);
+}
+
+.header .nav li a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.login {
+  color: white;
+  font-size: 16px;
+  margin-left: auto;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
