@@ -1,10 +1,5 @@
 import { createSlice , createAsyncThunk } from "@reduxjs/toolkit";
 
-
-
-
-
-
 // Fetch all Posts from server
 export const fetchPosts = createAsyncThunk(
   "posts/fetchPosts",
